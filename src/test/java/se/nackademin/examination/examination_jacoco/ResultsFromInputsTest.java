@@ -12,5 +12,12 @@ public class ResultsFromInputsTest {
 		resultsFromInputs.setResultForNameLenght(10);
 		assertEquals("The result should be 10", resultsFromInputs.getResultForNameLenght(), 10);
 	}
+	
+	@Test
+	public void testGenderGettersAndSettersMethods() {
+		ResultFromInputs resultsFromInputs = new ResultFromInputs();
+		resultsFromInputs.setResultForGender(10);;
+		assertEquals("The result should be 10", resultsFromInputs.getResultForGender(), 10);
+	}
 
 }

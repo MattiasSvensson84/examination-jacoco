@@ -1,6 +1,13 @@
 package se.nackademin.examination.examination_jacoco;
 
 import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertTrue;
+
+import java.io.ByteArrayOutputStream;
+import java.io.OutputStream;
+import java.io.PrintStream;
+import java.util.ArrayList;
+import java.util.Arrays;
 
 import org.junit.Test;
 
@@ -127,5 +134,53 @@ public class GameTest {
 		Game game = new Game();
 		int i = game.calculateOutPutBasedOnHomeCity("p");
 		assertEquals("The result should be 10", i, 10);
+	}
+	
+	@Test
+	public void testRunGame(){
+		Game game = new Game();
+		game.runGame("game", "Mattias", "Svensson", 'M', 30, "Orebro");
+		
+		
+	}
+	
+	@Test
+	public void testGetGenderFromInputValues(){
+		Game game = new Game();
+		ArrayList<String> value = new ArrayList<String>();		
+		value.addAll (Arrays.asList("game", "Mattias", "Svensson", "M", "30", "Orebro"));	
+		assertEquals("The result should be" + game.getGenderFromInputValues(value), value.get(3).charAt(0), 'M');		
+	}
+	@Test
+	public void testGetAgeFromInputValues(){
+		Game game = new Game();
+		ArrayList<String> value = new ArrayList<String>();		
+		value.addAll (Arrays.asList("game", "Mattias", "Svensson", "M", "30", "Orebro"));	
+		int ageValue = Integer.parseInt(value.get(4));
+		assertEquals("The result should be" + game.getAgeFromInputValues(value), ageValue, 30);		
+	}
+	
+	@Test
+	public void testBuildFinalString(){
+		Game game = new Game();
+		ResultFromInputs ri = new ResultFromInputs();
+			
+	}
+	@Test
+	public void testRun(){
+		Game game = new Game();
+		ArrayList<String> value = new ArrayList<String>();
+		value.addAll (Arrays.asList("game", "Mattias", "Svensson", "M", "30", "Orebro"));
+		
+		PrintStream orignalOut = System.out;
+		
+		OutputStream out = new ByteArrayOutputStream();
+		PrintStream print = new PrintStream(out);
+		System.setOut(print);
+		
+		game.run(value);	
+		System.setOut(orignalOut);
+		
+		assertTrue(out.toString().contains("Mattias"));
 	}
 }

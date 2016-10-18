@@ -164,6 +164,8 @@ public class GameTest {
 	public void testBuildFinalString(){
 		Game game = new Game();
 		ResultFromInputs ri = new ResultFromInputs();
+		Conversor cn = new Conversor();
+		game.buildFinalString("Mattias", "Svensson", ri, cn);
 			
 	}
 	@Test
@@ -183,4 +185,5 @@ public class GameTest {
 		
 		assertTrue(out.toString().contains("Mattias"));
 	}
+	
 }

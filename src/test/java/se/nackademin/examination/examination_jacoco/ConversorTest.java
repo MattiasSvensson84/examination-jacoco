@@ -9,7 +9,7 @@ public class ConversorTest {
 	Conversor conversor = new Conversor();
 	@Test
 	public void testConversorGetSetName() {
-		//Conversor conversor = new Conversor();
+		
 		conversor.setNameConverterArrayValues();
 		assertEquals(conversor.getNameConverterArray().get(0), "Your first name is smaller than your last name");
 		

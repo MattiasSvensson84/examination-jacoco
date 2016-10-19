@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TestSuite" time="0.031" tests="40" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/jre/lib"/>
+    <property name="java.vm.version" value="25.91-b14"/>
+    <property name="gopherProxySet" value="false"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="/Users/mattiassvensson/Documents/workspace/examination-jacoco"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=":"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.country" value="SE"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/Users/mattiassvensson/Documents/workspace/examination-jacoco"/>
+    <property name="java.runtime.version" value="1.8.0_91-b14"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/jre/lib/endorsed"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.io.tmpdir" value="/var/folders/qq/zv17p9k52rn7_wwtgkd9ypw80000gn/T/"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="classworlds.conf" value="/usr/local/Cellar/maven/3.3.9/libexec/bin/m2.conf"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/mattiassvensson/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.10.5"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="user.home" value="/Users/mattiassvensson"/>
+    <property name="user.timezone" value="Europe/Stockholm"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="user.name" value="mattiassvensson"/>
+    <property name="java.class.path" value="/usr/local/Cellar/maven/3.3.9/libexec/boot/plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean install -U"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="sv"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_91"/>
+    <property name="java.ext.dirs" value="/Users/mattiassvensson/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/>
+    <property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/jre/classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="/usr/local/Cellar/maven/3.3.9/libexec"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="sun.cpu.isalist" value=""/>
+  </properties>
+  <testcase name="testRun on testRun(se.nackademin.examination.examination_jacoco.GameTest)" classname="se.nackademin.examination.examination_jacoco.GameTest" time="0.014"/>
+  <testcase name="testCalculateOutPutBasedOnGender0 on testCalculateOutPutBasedOnGender0(se.nackademin.examination.examination_jacoco.GameTest)" classname="se.nackademin.examination.examination_jacoco.GameTest" time="0"/>
+  <testcase name="testCalculateOutPutBasedOnGender1 on testCalculateOutPutBasedOnGender1(se.nackademin.examination.examination_jacoco.GameTest)" classname="se.nackademin.examination.examination_jacoco.GameTest" time="0"/>
+  <testcase name="testCalculateOutPutBasedOnGender2 on testCalculateOutPutBasedOnGender2(se.nackademin.examination.examination_jacoco.GameTest)" classname="se.nackademin.examination.examination_jacoco.GameTest" time="0"/>
+  <testcase name="testCalculateOutPutBasedOnNames0 on testCalculateOutPutBasedOnNames0(se.nackademin.examination.examination_jacoco.GameTest)" classname="se.nackademin.examination.examination_jacoco.GameTest" time="0"/>
+  <testcase name="testCalculateOutPutBasedOnNames1 on testCalculateOutPutBasedOnNames1(se.nackademin.examination.examination_jacoco.GameTest)" classname="se.nackademin.examination.examination_jacoco.GameTest" time="0.001"/>
+  <testcase name="testCalculateOutPutBasedOnNames2 on testCalculateOutPutBasedOnNames2(se.nackademin.examination.examination_jacoco.GameTest)" classname="se.nackademin.examination.examination_jacoco.GameTest" time="0"/>
+  <testcase name="testGetGenderFromInputValues on testGetGenderFromInputValues(se.nackademin.examination.examination_jacoco.GameTest)" classname="se.nackademin.examination.examination_jacoco.GameTest" time="0"/>
+  <testcase name="testCalculateOutPutBasedOnAge0 on testCalculateOutPutBasedOnAge0(se.nackademin.examination.examination_jacoco.GameTest)" classname="se.nackademin.examination.examination_jacoco.GameTest" time="0"/>
+  <testcase name="testCalculateOutPutBasedOnAge1 on testCalculateOutPutBasedOnAge1(se.nackademin.examination.examination_jacoco.GameTest)" classname="se.nackademin.examination.examination_jacoco.GameTest" time="0"/>
+  <testcase name="testCalculateOutPutBasedOnHomeCity10 on testCalculateOutPutBasedOnHomeCity10(se.nackademin.examination.examination_jacoco.GameTest)" classname="se.nackademin.examination.examination_jacoco.GameTest" time="0.001"/>
+  <testcase name="testGetAgeFromInputValues on testGetAgeFromInputValues(se.nackademin.examination.examination_jacoco.GameTest)" classname="se.nackademin.examination.examination_jacoco.GameTest" time="0.001"/>
+  <testcase name="testRunGame on testRunGame(se.nackademin.examination.examination_jacoco.GameTest)" classname="se.nackademin.examination.examination_jacoco.GameTest" time="0.001"/>
+  <testcase name="testCalculateOutPutBasedOnHomeCity0 on testCalculateOutPutBasedOnHomeCity0(se.nackademin.examination.examination_jacoco.GameTest)" classname="se.nackademin.examination.examination_jacoco.GameTest" time="0.001"/>
+  <testcase name="testCalculateOutPutBasedOnHomeCity1 on testCalculateOutPutBasedOnHomeCity1(se.nackademin.examination.examination_jacoco.GameTest)" classname="se.nackademin.examination.examination_jacoco.GameTest" time="0.001"/>
+  <testcase name="testCalculateOutPutBasedOnHomeCity2 on testCalculateOutPutBasedOnHomeCity2(se.nackademin.examination.examination_jacoco.GameTest)" classname="se.nackademin.examination.examination_jacoco.GameTest" time="0"/>
+  <testcase name="testCalculateOutPutBasedOnHomeCity3 on testCalculateOutPutBasedOnHomeCity3(se.nackademin.examination.examination_jacoco.GameTest)" classname="se.nackademin.examination.examination_jacoco.GameTest" time="0"/>
+  <testcase name="testCalculateOutPutBasedOnHomeCity4 on testCalculateOutPutBasedOnHomeCity4(se.nackademin.examination.examination_jacoco.GameTest)" classname="se.nackademin.examination.examination_jacoco.GameTest" time="0"/>
+  <testcase name="testCalculateOutPutBasedOnHomeCity5 on testCalculateOutPutBasedOnHomeCity5(se.nackademin.examination.examination_jacoco.GameTest)" classname="se.nackademin.examination.examination_jacoco.GameTest" time="0"/>
+  <testcase name="testCalculateOutPutBasedOnHomeCity6 on testCalculateOutPutBasedOnHomeCity6(se.nackademin.examination.examination_jacoco.GameTest)" classname="se.nackademin.examination.examination_jacoco.GameTest" time="0"/>
+  <testcase name="testCalculateOutPutBasedOnHomeCity7 on testCalculateOutPutBasedOnHomeCity7(se.nackademin.examination.examination_jacoco.GameTest)" classname="se.nackademin.examination.examination_jacoco.GameTest" time="0.001"/>
+  <testcase name="testCalculateOutPutBasedOnHomeCity8 on testCalculateOutPutBasedOnHomeCity8(se.nackademin.examination.examination_jacoco.GameTest)" classname="se.nackademin.examination.examination_jacoco.GameTest" time="0"/>
+  <testcase name="testCalculateOutPutBasedOnHomeCity9 on testCalculateOutPutBasedOnHomeCity9(se.nackademin.examination.examination_jacoco.GameTest)" classname="se.nackademin.examination.examination_jacoco.GameTest" time="0"/>
+  <testcase name="testBuildFinalString on testBuildFinalString(se.nackademin.examination.examination_jacoco.GameTest)" classname="se.nackademin.examination.examination_jacoco.GameTest" time="0.001"/>
+  <testcase name="testGenderGettersAndSettersMethods on testGenderGettersAndSettersMethods(se.nackademin.examination.examination_jacoco.ResultsFromInputsTest)" classname="se.nackademin.examination.examination_jacoco.ResultsFromInputsTest" time="0.001"/>
+  <testcase name="testHomeGettersAndSettersMethods on testHomeGettersAndSettersMethods(se.nackademin.examination.examination_jacoco.ResultsFromInputsTest)" classname="se.nackademin.examination.examination_jacoco.ResultsFromInputsTest" time="0"/>
+  <testcase name="testAgeGettersAndSettersMethods on testAgeGettersAndSettersMethods(se.nackademin.examination.examination_jacoco.ResultsFromInputsTest)" classname="se.nackademin.examination.examination_jacoco.ResultsFromInputsTest" time="0.001"/>
+  <testcase name="testNameLenghtGettersAndSettersMethods on testNameLenghtGettersAndSettersMethods(se.nackademin.examination.examination_jacoco.ResultsFromInputsTest)" classname="se.nackademin.examination.examination_jacoco.ResultsFromInputsTest" time="0.001"/>
+  <testcase name="testMainMethod on testMainMethod(se.nackademin.examination.examination_jacoco.MainTest)" classname="se.nackademin.examination.examination_jacoco.MainTest" time="0.002"/>
+  <testcase name="testBuildFinalString1 on testBuildFinalString1(se.nackademin.examination.examination_jacoco.DataAnalysisTest)" classname="se.nackademin.examination.examination_jacoco.DataAnalysisTest" time="0.001"/>
+  <testcase name="testBuildFinalString2 on testBuildFinalString2(se.nackademin.examination.examination_jacoco.DataAnalysisTest)" classname="se.nackademin.examination.examination_jacoco.DataAnalysisTest" time="0"/>
+  <testcase name="testBuildFinalString3 on testBuildFinalString3(se.nackademin.examination.examination_jacoco.DataAnalysisTest)" classname="se.nackademin.examination.examination_jacoco.DataAnalysisTest" time="0.001"/>
+  <testcase name="testBuildFinalString5 on testBuildFinalString5(se.nackademin.examination.examination_jacoco.DataAnalysisTest)" classname="se.nackademin.examination.examination_jacoco.DataAnalysisTest" time="0.001"/>
+  <testcase name="testBuildFinalString6 on testBuildFinalString6(se.nackademin.examination.examination_jacoco.DataAnalysisTest)" classname="se.nackademin.examination.examination_jacoco.DataAnalysisTest" time="0"/>
+  <testcase name="testBuildFinalString4a on testBuildFinalString4a(se.nackademin.examination.examination_jacoco.DataAnalysisTest)" classname="se.nackademin.examination.examination_jacoco.DataAnalysisTest" time="0"/>
+  <testcase name="testBuildFinalString4b on testBuildFinalString4b(se.nackademin.examination.examination_jacoco.DataAnalysisTest)" classname="se.nackademin.examination.examination_jacoco.DataAnalysisTest" time="0.001"/>
+  <testcase name="testConversorGetSetAge on testConversorGetSetAge(se.nackademin.examination.examination_jacoco.ConversorTest)" classname="se.nackademin.examination.examination_jacoco.ConversorTest" time="0"/>
+  <testcase name="testConversorGetSetCity on testConversorGetSetCity(se.nackademin.examination.examination_jacoco.ConversorTest)" classname="se.nackademin.examination.examination_jacoco.ConversorTest" time="0"/>
+  <testcase name="testConversorGetSetName on testConversorGetSetName(se.nackademin.examination.examination_jacoco.ConversorTest)" classname="se.nackademin.examination.examination_jacoco.ConversorTest" time="0"/>
+  <testcase name="testConversorGetSetGender on testConversorGetSetGender(se.nackademin.examination.examination_jacoco.ConversorTest)" classname="se.nackademin.examination.examination_jacoco.ConversorTest" time="0"/>
+</testsuite>

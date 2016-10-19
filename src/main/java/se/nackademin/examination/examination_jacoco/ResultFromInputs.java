@@ -1,5 +1,12 @@
 package se.nackademin.examination.examination_jacoco;
-
+/**
+ * 
+ * @author Mattias Svensson
+ *
+ */
+/** 
+ * Class for getters and setters from input from user 
+ */
 public class ResultFromInputs {
 	
 	private int resultForNameLenght = 0;

@@ -2,6 +2,14 @@ package se.nackademin.examination.examination_jacoco;
 
 import java.util.ArrayList;
 
+/**
+ * 
+ * @author Mattias Svensson
+ *
+ */
+/**
+ * Class conversor for converting input valuse to decide what sting value you will get threw output 
+ */
 public class Conversor {
 	
 	private ArrayList<String> nameConverterArray = new ArrayList<String>();
